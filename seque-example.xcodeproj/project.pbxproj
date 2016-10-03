@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		498206431D9B344E00C35098 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498206421D9B344E00C35098 /* AppDelegate.swift */; };
-		498206451D9B344E00C35098 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498206441D9B344E00C35098 /* ViewController.swift */; };
+		498206451D9B344E00C35098 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498206441D9B344E00C35098 /* MainVC.swift */; };
 		498206481D9B344E00C35098 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 498206461D9B344E00C35098 /* Main.storyboard */; };
 		4982064A1D9B344E00C35098 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 498206491D9B344E00C35098 /* Assets.xcassets */; };
 		4982064D1D9B344E00C35098 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4982064B1D9B344E00C35098 /* LaunchScreen.storyboard */; };
 		498206581D9B344E00C35098 /* seque_exampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498206571D9B344E00C35098 /* seque_exampleTests.swift */; };
 		498206631D9B344E00C35098 /* seque_exampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498206621D9B344E00C35098 /* seque_exampleUITests.swift */; };
+		49D1E75B1DA2AF69008E7D66 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D1E75A1DA2AF69008E7D66 /* SecondVC.swift */; };
+		49D1E75D1DA2B0C4008E7D66 /* SequePushVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D1E75C1DA2B0C4008E7D66 /* SequePushVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* Begin PBXFileReference section */
 		4982063F1D9B344E00C35098 /* seque-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "seque-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		498206421D9B344E00C35098 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		498206441D9B344E00C35098 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		498206441D9B344E00C35098 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		498206471D9B344E00C35098 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		498206491D9B344E00C35098 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4982064C1D9B344E00C35098 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		4982065E1D9B344E00C35098 /* seque-exampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "seque-exampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		498206621D9B344E00C35098 /* seque_exampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = seque_exampleUITests.swift; sourceTree = "<group>"; };
 		498206641D9B344E00C35098 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49D1E75A1DA2AF69008E7D66 /* SecondVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
+		49D1E75C1DA2B0C4008E7D66 /* SequePushVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SequePushVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +102,10 @@
 			isa = PBXGroup;
 			children = (
 				498206421D9B344E00C35098 /* AppDelegate.swift */,
-				498206441D9B344E00C35098 /* ViewController.swift */,
+				498206441D9B344E00C35098 /* MainVC.swift */,
 				498206461D9B344E00C35098 /* Main.storyboard */,
+				49D1E75C1DA2B0C4008E7D66 /* SequePushVC.swift */,
+				49D1E75A1DA2AF69008E7D66 /* SecondVC.swift */,
 				498206491D9B344E00C35098 /* Assets.xcassets */,
 				4982064B1D9B344E00C35098 /* LaunchScreen.storyboard */,
 				4982064E1D9B344E00C35098 /* Info.plist */,
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				498206451D9B344E00C35098 /* ViewController.swift in Sources */,
+				49D1E75D1DA2B0C4008E7D66 /* SequePushVC.swift in Sources */,
+				498206451D9B344E00C35098 /* MainVC.swift in Sources */,
+				49D1E75B1DA2AF69008E7D66 /* SecondVC.swift in Sources */,
 				498206431D9B344E00C35098 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +513,7 @@
 				498206691D9B344E00C35098 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4982066A1D9B344E00C35098 /* Build configuration list for PBXNativeTarget "seque-exampleTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +522,7 @@
 				4982066C1D9B344E00C35098 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4982066D1D9B344E00C35098 /* Build configuration list for PBXNativeTarget "seque-exampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +531,7 @@
 				4982066F1D9B344E00C35098 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
